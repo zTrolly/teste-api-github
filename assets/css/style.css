@@ -1,11 +1,11 @@
-.profile-picture{
+.profile_picture{
   display: flex;
   margin:  0 auto;
   width: 150px;
   padding: 0;
 }
 
-.profile-picture img{
+.profile_picture img{
   width: 100%;
   border-radius: 50%;
   border: 5px solid black;

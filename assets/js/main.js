@@ -1,8 +1,8 @@
-const URL = "https://api.github.com/users/GiroFC";
+const URL = "https://api.github.com/users/ztrolly";
 const container = document.getElementById("container");
 var profileCard,profile,card;
 
-    function requestPerfil(URL, URL2){
+    function requestPerfil(URL){
       fetch(URL)
       .then(response => response.json())
       .then(data => {
